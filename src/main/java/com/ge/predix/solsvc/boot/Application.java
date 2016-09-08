@@ -202,7 +202,7 @@ public class Application
     {  
         
         String applicationURl = getApplicationUrl(request);
-        response.sendRedirect(applicationURl.replace("/health", "/service/experience/health")); //$NON-NLS-1$ //$NON-NLS-2$
+        response.sendRedirect(applicationURl.replace("/health", "/service/health")); //$NON-NLS-1$ //$NON-NLS-2$
 
     }
     
