@@ -30,5 +30,14 @@ public interface DynamicService
     @Path("/dynamic")
     @ApiOperation(value = "/dynamic")
     public Response selfRegisteredService();
+	
+	/**
+     * 
+     * @return - Returns the Rest response
+     */
+    @GET
+    @Path("/cvsToJson")
+    @ApiOperation(value = "/cvsToJson")
+    public Response readSimulatedData();
 
 }

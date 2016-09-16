@@ -1,6 +1,6 @@
 ---
 applications:
-  - name: predix-microservice-cf-jsr
+  - name: glass-predix-microservice-cf-jsr
     buildpack: java_buildpack
     path: target/predix-microservice-cf-jsr-1.1.6.jar
     timeout : 180
