@@ -81,6 +81,7 @@ public class DynamicServiceImpl implements DynamicService {
 		
 		JSONObject obj = convert();
 		responseBuilder.entity(obj);
+		responseBuilder.header("Access-Control-Allow-Origin","*");
 		return responseBuilder.build();
 	}
 	
